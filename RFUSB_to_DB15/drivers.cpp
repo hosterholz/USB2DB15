@@ -65,6 +65,7 @@ void setupController(uint16_t vid, uint16_t pid, HIDController *controller) {
         case PID_HORI_CMDR:
           setupHoriFightingCmdr(controller);
           break;
+        case PID_HORI_FIGHTING_EDGE:
         case PID_HORI_HORIPAD:
         case PID_HORI_LITE:
         case PID_HORI_RAP_V_PS4:

@@ -38,6 +38,7 @@
 #define PID_GENERIC_SNES        0x0011 // Generic SNES pad
 #define PID_HONCAM              0xA713 // Honcam HC-J2003
 #define PID_HORI_CMDR           0x0085 // HORI Fighting Commander
+#define PID_HORI_FIGHTING_EDGE  0x00C0 // HORI Fighting EDGE for PlayStation 4
 #define PID_HORI_FS3            0x0010 // HORI Fighting Stick 3
 #define PID_HORI_FSV3           0x0027 // HORI Fighting Stick V3
 #define PID_HORI_HORIPAD        0x0066 // HORIPAD FPS+(PS4)
