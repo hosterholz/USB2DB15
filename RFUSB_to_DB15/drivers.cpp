@@ -492,7 +492,10 @@ void setupHoriRAP3(HIDController *controller) {
  */
 void setupRetrobit_Saturn(HIDController *controller) {
   // DPad setup
-  generateDPad(2, controller);
+  controller->ConfigButton(BUTTON_LEFT, 3, 0xFF, 0);
+  controller->ConfigButton(BUTTON_RIGHT, 3, 0xFF, 0xFF);
+  controller->ConfigButton(BUTTON_UP, 4, 0xFF, 0);
+  controller->ConfigButton(BUTTON_DOWN, 4, 0xFF, 0xFF);
   // Button setup
   controller->ConfigButton(BUTTON_COIN, 1, 0x01);
   controller->ConfigButton(BUTTON_START, 1, 0x02);
